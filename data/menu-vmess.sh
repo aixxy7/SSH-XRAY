@@ -299,8 +299,6 @@ echo -e "                   Xray/Vmess Account                    " | tee -a /et
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
 echo -e "Username      : ${user}" | tee -a /etc/log-create-user.log
 echo -e "Domain        : ${domain}" | tee -a /etc/log-create-user.log
-echo -e "ISP           : $ISP" | tee -a /etc/log-create-user.log
-echo -e "Kota          : $CITY" | tee -a /etc/log-create-user.log
 echo -e "Port TLS      : 443" | tee -a /etc/log-create-user.log
 echo -e "Port Non TLS  : 80" | tee -a /etc/log-create-user.log
 echo -e "Port gRPC     : 443" | tee -a /etc/log-create-user.log
