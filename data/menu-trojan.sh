@@ -237,8 +237,6 @@ echo -e "$COLOR1 ${NC} ${COLBG1}           ${WH}• Trojan Account Information  
 echo -e "$COLOR1————————————————————————————————————————————————————${NC}"
 echo -e "$COLOR1 ${NC} ${WH}Username    ${COLOR1}: ${WH}${user}" 
 echo -e "$COLOR1 ${NC} ${WH}Domain      ${COLOR1}: ${WH}${domain}" 
-echo -e "$COLOR1 ${NC} ${WH}ISP         ${COLOR1}: ${WH}$ISP" 
-echo -e "$COLOR1 ${NC} ${WH}Kota        ${COLOR1}: ${WH}$CITY"
 echo -e "$COLOR1 ${NC} ${WH}Port        ${COLOR1}: ${WH}${tr}" 
 echo -e "$COLOR1 ${NC} ${WH}Key         ${COLOR1}: ${WH}${uuid}" 
 echo -e "$COLOR1 ${NC} ${WH}Path        ${COLOR1}: ${WH}/trojan"
