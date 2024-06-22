@@ -254,7 +254,6 @@ read -n 1 -s -r -p "   Press any key to back on menu"
 menu-trojan
 }
 
-
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC} ${COLBG1}              ${WH}• TROJAN PANEL MENU •            ${NC} $COLOR1 $NC"
