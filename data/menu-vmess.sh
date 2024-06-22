@@ -310,11 +310,11 @@ echo -e "Path          : /vmess" | tee -a /etc/log-create-user.log
 echo -e "ServiceName   : vmess-grpc" | tee -a /etc/log-create-user.log
 echo -e "Kadaluarsa    : $exp" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
-echo -e "Link TLS      : ${vmesslink1}" | tee -a /user/log-vmess-$user.txt
+echo -e "Link TLS      : ${vmesslink1}" | tee -a /etc/log-create-user.log
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
-echo -e "Link Non TLS  : ${vmesslink2}" | tee -a /user/log-vmess-$user.txt
+echo -e "Link Non TLS  : ${vmesslink2}" | tee -a /etc/log-create-user.log
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
-echo -e "Link gRPC     : ${vmesslink3}" | tee -a /user/log-vmess-$user.txt
+echo -e "Link gRPC     : ${vmesslink3}" | tee -a /etc/log-create-user.log
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
 echo "" | tee -a /etc/log-create-user.log
 
