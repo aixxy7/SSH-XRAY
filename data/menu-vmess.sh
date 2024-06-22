@@ -308,7 +308,7 @@ echo -e "Keamanan      : auto" | tee -a /etc/log-create-user.log
 echo -e "Network       : ws" | tee -a /etc/log-create-user.log
 echo -e "Path          : /vmess" | tee -a /etc/log-create-user.log
 echo -e "ServiceName   : vmess-grpc" | tee -a /etc/log-create-user.log
-echo -e "Kadaluarsa    : $exp" | tee -a /user/log-vmess-$user.txt
+echo -e "Kadaluarsa    : $exp" | tee -a /etc/log-create-user.log
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
 echo -e "Link TLS      : ${vmesslink1}" | tee -a /etc/log-create-user.log
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /etc/log-create-user.log
